@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+#menu{
+	list-style-type: none;
+	text-align: right;
+	margin: 0px;
+	background-color: #BDBDBD;
+	padding: 10px;
+}
+#menu li{
+	display: inline;
+	padding: 10px;
+}
+#menu a{
+	text-decoration: none;
+}
+#active{
+	background-color: #9C9C9C;
+}
+a li{
+	color: black;
+}
+a li:hover{
+	color: white;
+	background-color: #707070;
+	transition: 0.2s ease-in;
+}
+a li:active{
+	color: black;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+#footer{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	background-color: #BDBDBD;
+}
+#footer p{
+	text-align: center;
+	padding-top: 25px;
+}
+#image1{
+	width: 250px;
+}
+#centerImage{
+	text-align: center;
+}
+dl dd{
+	font-size: 0.7em;
+}
+
+table{
+	border: 1px black solid;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+
+td{
+	border: 1px grey solid;
+}
+
+th{
+	margin:auto;
+	padding: 0px 40px 0px 40px;
+	background-color: grey;
+}
+.myForm{
+	//padding: 20px;
+	display: inline;
+}
+.myForm label{
+	display: block;
+}
+.myForm input[type="text"], input[type="tel"], input[type="email"], .myForm textarea{
+	display: block;
+	padding: 1%;
+	/*width: 60%;*/
+	width: 90%;
+}
+#address{
+	display: block;
+	width: 25%;
+	float: left;
+	margin-top: 18px;
+	line-height: 1.4em;
+}
+.btn1{
+	background-color: white;
+	border: none;
+	border: 1px black solid;
+	padding: 10px 15px 10px 15px;
+	border-radius: 10px;
+}
+.btn1:hover{
+	color: white;
+	background-color: black;
+	transition: 0.2s ease-in-out;
+	//padding: 15px 20px 15px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+#formDiv{
+	width: 75%;
+	float: left;
+}
+.clear{
+	clear: both;
+}
